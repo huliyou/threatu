@@ -1,0 +1,23 @@
+/**
+ * Happy Hacking
+ * Created by leiyouwho on 18/4/2016.
+ */
+
+@import "../palette";
+
+.EMRContainer {
+  height: 100%;
+  width: 100%;
+  background-color: $background-color;
+  padding: 10px 10px;
+}
+
+.addEHRHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $deep-line-color;
+  padding: 10px 10px;
+  .addText {
+    font-size: 1.5rem;
+  }
+}

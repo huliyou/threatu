@@ -1,0 +1,35 @@
+@import "./_palette.scss";
+
+.blueButton{
+  width: 100px;
+  margin-bottom: 7px;
+  background-color: $primary-color;
+  border-radius: 2px;
+  border:1px solid $primary-color;
+}
+
+.greenButton{
+  width: 100px;
+  margin-bottom: 7px;
+  background-color: $green-color;
+  border-radius: 2px;
+  border:1px solid $green-color;
+}
+.greenButton:hover{
+  border:1px solid $green-sub-color;
+  background-color: $green-sub-color;
+}
+.whiteButton{
+  width: 100px;
+  margin-bottom: 7px;
+  border-radius: 1px;
+  border:1px solid $primary-color;
+  margin-left: 2vw;
+}
+
+.yellowButton{
+  width: 100px;
+  background-color: #FF7316;
+  border-radius: 2px;
+  border:1px solid #FF7316;
+}

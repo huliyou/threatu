@@ -1,0 +1,159 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #666;
+    background-color: #fff;
+}
+::-moz-selection {
+    background: #1372D8;
+    color: #fff;
+}
+::selection {
+    background: #1372D8;
+    color: #fff;
+}
+/*分页样式*/
+
+.ant-pagination-item
+a {
+    /*color: #1372D8;*/
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+a:hover {
+    color: #0080FF;
+}
+a:active {
+    color: #0080FF;
+}
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+.ant-pagination-item:hover {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-color: #1372D8;
+}
+.ant-pagination-item:hover a {
+    color: #1372D8;
+}
+.ant-pagination-item-active {
+    background-color: #1372D8;
+    border-color: #1372D8;
+    /*color: #fff;*/
+}
+.ant-pagination-item-active:hover a{
+    color: #fff;
+
+}
+.ant-pagination-prev:hover,
+.ant-pagination-next:hover {
+    border-color: #1372D8;
+}
+.ant-pagination-prev:hover a,
+.ant-pagination-next:hover a {
+    color: #1372D8;
+}
+.ant-pagination-options-quick-jumper input:hover {
+    border-color: #0080FF;
+}
+.ant-pagination-options-quick-jumper input:focus {
+    border-color: #0080FF;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(45, 183, 245, 0.2);
+}
+
+/*menu样式*/
+.ant-menu-item,
+.ant-menu-submenu,
+.ant-menu-submenu-title {
+    cursor: pointer;
+    -webkit-transition: all 0.01s ease;
+    transition: all 0.01s ease;
+}
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-item-group-list > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title {
+    padding: 0px 16px 0 28px;
+    font-size: 13px;
+    line-height: 42px;
+    height: 42px;
+}
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    font-size: 14px;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected {
+    border-right: 0;
+    background-color: #1372D8;
+    color: #FFFFFF;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    font-weight: bold;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected > a,
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected > a:hover {
+    color: #1372D8;
+}
+.ant-menu-dark.ant-menu-vertical .ant-menu-item-selected > a,
+.ant-menu-dark.ant-menu-vertical .ant-menu-item-selected > a:hover {
+    color: #1372D8;
+}
+.ant-menu-dark .ant-menu-item-active,
+.ant-menu-dark .ant-menu-submenu-active,
+.ant-menu-dark .ant-menu-submenu-title:hover {
+    background-color: transparent;
+    color: #1372D8;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.ant-table {
+    font-size: 1.3rem;
+    color: #666;
+    position: relative;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+}
+.ant-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+}
+.ant-table th {
+    background: #CED6DC;
+    font-weight: bold;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    text-align: left;
+}
+label {
+    font-size: 1.3rem;
+}
+.ant-input,.ant-select, .ant-radio-group, .ant-radio, .ant-checkbox-wrapper {
+    font-size: 1.3rem;
+}
+.ant-table-small table {
+    border: 1px solid #e9e9e9;
+    padding: 0;
+    border-radius: 2px 2px 0 0;
+}
+.ant-table-footer {
+    padding: 10px 8px;
+    background: #f7f7f7;
+    position: relative;
+    top: -1px;
+    border-radius: 0 0 2px 2px;
+}

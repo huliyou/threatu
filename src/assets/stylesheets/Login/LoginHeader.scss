@@ -1,0 +1,16 @@
+@import "../palette";
+
+.loginHeader{
+  width: 100vw;
+  background: $title-color;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 1vh 5vw;
+}
+
+.slogan {
+  color: $white-color;
+  font-size: 2em;
+}

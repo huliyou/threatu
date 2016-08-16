@@ -1,0 +1,40 @@
+@import "../palette";
+.content{
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: $background-color;
+}
+
+.contentHeader{
+  flex-grow: 1;
+}
+
+.contentContainer{
+  flex-grow: 40;
+  padding:10px 20px;
+}
+
+.contentBox{
+  border: none;
+  padding: 3em;
+  background: #FFFFFF;
+}
+
+.contentTabs{
+  border: 1px solid #DEDEDE;
+  width: 50vh;
+  margin-left: 6vh;
+}
+
+.contentBottom{
+  margin-top: -9vh ;
+  padding: 3em;
+  background: #FFFFFF;
+}
+.studioBottom{
+  margin-bottom: 2vh;
+}

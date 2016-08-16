@@ -1,0 +1,67 @@
+@import "../palette";
+.contentList{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: $background-color;
+}
+
+.contentListHeader{
+  flex-grow: 1;
+}
+
+.contentListContent{
+  overflow: scroll;
+  flex-grow: 40;
+  padding:1vh 20px;
+}
+
+.contentListSearch{
+  padding: 1vh 0;
+  background: $white-color;
+}
+
+.contentListTable{
+  table a{
+    color: $primary-color;
+  }
+  padding: 1em;
+  margin-top: 2vh;
+  background: $white-color;
+}
+
+.pageNav{
+  display: flex;
+  width: 100%;
+  padding: 1vh;
+  justify-content: flex-end;
+  background: $white-color;
+}
+
+.statistics{
+  padding: 5px;
+  background: $white-color;
+  font-size: 15px;
+  margin-top: 2vh;
+  margin-bottom: -1vh;
+}
+
+.rowColor{
+  background: $input-border-color;
+}
+.contentOperate{
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+.fristView{
+  margin-bottom: 5px;
+}
+.noChatHistory{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>错误</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="新建档案模板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-387.000000, -304.000000)" id="错误" fill="#D0011B">
+            <path d="M398.193133,304.306867 C397.782928,303.897711 397.118836,303.897711 396.70968,304.306867 L393,308.020744 L389.29032,304.306867 C388.881164,303.897711 388.217072,303.897711 387.806867,304.306867 C387.397711,304.716023 387.397711,305.376967 387.806867,305.786123 L391.516547,309.5 L387.806867,313.213877 C387.397711,313.623033 387.397711,314.283977 387.806867,314.693133 C388.217072,315.102289 388.881164,315.102289 389.29032,314.693133 L393,310.979256 L396.70968,314.693133 C397.118836,315.102289 397.782928,315.102289 398.193133,314.693133 C398.602289,314.283977 398.602289,313.623033 398.193133,313.213877 L394.483453,309.5 L398.193133,305.786123 C398.602289,305.376967 398.602289,304.716023 398.193133,304.306867 L398.193133,304.306867 Z" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+@import "../palette";
+.contentHeader{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  background: $white-color;
+  flex-direction: row;
+  font-size: 2em;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.contentText{
+  flex-grow: 19;
+  margin-left: 20px;
+  margin-top: 10px;
+
+  .headerSubText{
+    margin-left: 2vw;
+  }
+}
+
+.contentButton{
+  flex-grow: 1;
+  position: relative;
+  right: 40px;
+  margin-top: 7px;
+}
+
+.changeButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+  margin-right: 83px;
+  height: 28px;
+  width: 100px;
+  border-radius: 2px;
+  background: $primary-color;
+  font-size: 1rem;
+  a {
+    color: white;
+  }
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+}
+.changeButton:hover {
+  background: #2db7f5;
+}
